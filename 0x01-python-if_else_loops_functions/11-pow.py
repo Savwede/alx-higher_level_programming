@@ -9,6 +9,6 @@ def pow(a, b):
         if b != 0:
             c *= a
     if d == 1:
-        return (int(1 / c))
+        return (1 / c)
     else:
         return (int(c))
