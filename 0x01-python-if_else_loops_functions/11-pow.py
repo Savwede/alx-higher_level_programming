@@ -6,9 +6,9 @@ def pow(a, b):
         d = 1
         b *= -1
     for i in range(b):
-        if b is not 0:
+        if b != 0:
             c *= a
-    if d is 1:
+    if d == 1:
         return (int(1 / c))
     else:
         return (int(c))
