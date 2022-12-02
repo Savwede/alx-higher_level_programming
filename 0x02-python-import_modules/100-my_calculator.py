@@ -30,4 +30,3 @@ if __name__ == "__main__":
             exit(1)
         if opps.find(opp) != -1
             print("{} {} {} = {}".format(a, opp, b, result))
-
