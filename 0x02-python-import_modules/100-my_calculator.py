@@ -28,5 +28,5 @@ if __name__ == "__main__":
         else:
             print("Unknown operator. Available operators: +, -, * and /")
             exit(1)
-        if opps.find(opp) != -1
+        if opps.find(opp) != -1:
             print("{} {} {} = {}".format(a, opp, b, result))
