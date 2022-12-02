@@ -2,10 +2,10 @@
 if __name__ == "__main__":
     """Print the number of and list of arguments."""
     import sys
-    from calculator_1.py import add
-    from calculator_1.py import sub
-    from calculator_1.py import mul
-    from calculator_1.py import div
+    from calculator_1 import add
+    from calculator_1 import sub
+    from calculator_1 import mul
+    from calculator_1 import div
 
     count = len(sys.argv) - 1
     if count != 3:
