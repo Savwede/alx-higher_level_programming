@@ -4,7 +4,7 @@
 def best_score(a_dictionary):
     big = -100000
     key = None
-    if(a_dictionary == None):
+    if(a_dictionary is None):
         return key
     for val in a_dictionary.keys():
         if(a_dictionary[val] > big):
